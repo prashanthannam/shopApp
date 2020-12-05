@@ -15,9 +15,8 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 <center>
+  <div>
 <img src="ezgif.com-gif-maker.gif" width="300">
+  </div>
 </center>
-<video width="400" controls>
-  <source src="ezgif.com-gif-maker.mov">
-  Your browser does not support HTML video.
-</video>
+
