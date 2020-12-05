@@ -1,6 +1,6 @@
 # shopapp
 
-A new Flutter project.
+A complete E-commerce app build using flutter and firebase, where users can create and edit products,Add Products to cart and order products.
 
 ## Getting Started
 
