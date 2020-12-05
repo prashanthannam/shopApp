@@ -1,17 +1,3 @@
-<html>
-  <head>
-    <style>
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 33.33%;
-  padding: 5px;
-}
-    </style>
-    </head>
-  <body>
 # shopapp
 
 A new Flutter project.
@@ -29,17 +15,6 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-<div class="row">
-  <div class="column">
-    <img src="shopApp1.png" alt="Snow" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="shopApp2.png" alt="Forest" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="shopApp3.png" alt="Mountains" style="width:100%">
-  </div>
-</div>
 <img src="shopApp1.png" width="200">
 <img src="shopApp2.png" width="200">
 <img src="shopApp3.png" width="200">
@@ -49,6 +24,4 @@ samples, guidance on mobile development, and a full API reference.
 <img src="shopApp7.png" width="200">
 <img src="shopApp8.png" width="200">
 <img src="shopApp9.png" width="200">
-</body>
 
-</html>
