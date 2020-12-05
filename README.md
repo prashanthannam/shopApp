@@ -14,15 +14,10 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+<center>
 <img src="ezgif.com-gif-maker.gif" width="300">
-
-<img src="shopApp1.png" width="200">
-<img src="shopApp2.png" width="200">
-<img src="shopApp3.png" width="200">
-<img src="shopApp4.png" width="200">
-<img src="shopApp5.png" width="200">
-<img src="shopApp6.png" width="200">
-<img src="shopApp7.png" width="200">
-<img src="shopApp8.png" width="200">
-<img src="shopApp9.png" width="200">
-
+</center>
+<video width="400" controls>
+  <source src="ezgif.com-gif-maker.mov">
+  Your browser does not support HTML video.
+</video>
