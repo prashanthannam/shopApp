@@ -1,6 +1,6 @@
 # shopapp
 
-A new Flutter project.
+A complete E-commerce app build using flutter and firebase, where users can create and edit products,Add Products to cart and order products.
 
 ## Getting Started
 
@@ -14,3 +14,9 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+<center>
+ <p align="center">
+<img src="ezgif.com-gif-maker.gif" width="300">
+  </p>
+</center>
+
