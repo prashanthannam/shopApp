@@ -81,17 +81,16 @@ class _OrderItemWidgetState extends State<OrderItemWidget>
                             DateFormat("dd MMM yyyy")
                                 .format(widget.order.dateTime),
                             style: Theme.of(context).textTheme.subtitle1,
-                          ),
-                          SizedBox(
-                            width: 10,
-                          ),
-                          Text(
-                            "Time : ",
-                            style: TextStyle(
-                                fontWeight: FontWeight.w900,
-                                fontSize: 18,
-                                color: Colors.black),
-                          ),
+                          ),]),
+                          Row(
+                            children: [
+                              Text(
+                                "Time : ",
+                                style: TextStyle(
+                                    fontWeight: FontWeight.w900,
+                                    fontSize: 18,
+                                    color: Colors.black),
+                              ), 
                           Text(
                             DateFormat("hh : mm aa")
                                 .format(widget.order.dateTime),

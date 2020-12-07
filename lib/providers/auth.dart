@@ -94,27 +94,20 @@ class Auth with ChangeNotifier {
   }
 
   Future<bool> autoLogin() async {
-    print("got");
     final prefs = await SharedPreferences.getInstance();
-    print("j");
     if (!prefs.containsKey("userData")) {
-      print("c");
       return false;
     }
     final extractedUserData = json.decode(prefs.getString("userData"));
-    print(extractedUserData);
     final expDate = DateTime.parse(extractedUserData['expiryDate']);
     if (expDate.isBefore(DateTime.now())) {
-      print("bef");
       return false;
     }
-    print("y");
     _token = extractedUserData['token'];
     _expiryDate = expDate;
     _userID = extractedUserData['userID'];
     notifyListeners();
     _autoLogout();
-    print("yes");
     return true;
   }
 }

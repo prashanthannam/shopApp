@@ -79,9 +79,10 @@ class _UserProductsScreenState extends State<UserProductsScreen> {
                                     radius: 35,
                                   ),
                                   title: Text(products[i].title),
+                                  subtitle: Text('₹ ${products[i].price}'),
                                   trailing: Container(
-                                    width: 200,
-                                    child: ButtonBar(
+                                    width: 100,
+                                    child: Row(
                                       children: [
                                         IconButton(
                                             icon: Icon(
